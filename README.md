@@ -36,11 +36,6 @@ sRNAtoolbox docker is hosted in Dockerhub so the first step is to pull the image
 ```
 sudo docker pull ugrbioinfo/srnatoolbox:latest
 ```
-You can also download the latest image from this github, and then load it as it follows:
-
-```
-sudo docker load -i ugrbioinfo_latest.tar.gz
-```
 
 After this, your sRNAtoolbox docker image is downloaded and now you can launch it:
 ```
