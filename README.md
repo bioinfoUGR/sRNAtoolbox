@@ -29,13 +29,19 @@ sudo apt install docker.io
 	sudo systemctl start docker
 	sudo systemctl enable docker
 ```
-To install Docker Desktop in Windows please follow these instructions.
+To install Docker Desktop in Windows please follow [these](https://docs.docker.com/docker-for-windows/install/) instructions.
 
 sRNAtoolbox docker is hosted in Dockerhub so the first step is to pull the image from it:
 
 ```
 sudo docker pull ugrbioinfo/srnatoolbox:latest
 ```
+You can also download the latest image from this github, and then load it as it follows:
+
+```
+sudo docker load -i ugrbioinfo_latest.tar.gz
+```
+
 After this, your sRNAtoolbox docker image is downloaded and now you can launch it:
 ```
 sudo docker run --hostname sRNAtoolbox --name sRNAtoolbox --user srna --workdir /home/srna -it ugrbioinfo/srnatoolbox:latest /bin/bash
