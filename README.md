@@ -6,6 +6,8 @@ The key tool of sRNAtoolbox is **sRNAbench** (Barturen _et al._, 2014) which is 
 
 sRNAtoolbox is implemented into a [webserver](https://arn.ugr.es/srnatoolbox), **a Docker**, and some of the tools are also available as [standalone executable files in this repository.](https://github.com/bioinfoUGR/sRNAtoolbox/tree/master/exec) 
 
+## Citing sRNAtoolbox
+
 ## Getting started
 
 There are 3 ways to use sRNAbench or sRNAtoolbox: Webserver, Docker container or standalone versions. We discourage the usage of standalone as several dependencies exist. 
