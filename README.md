@@ -4,7 +4,7 @@
 
 The key tool of sRNAtoolbox is **sRNAbench** (Barturen _et al._, 2014) which is the successor program of **miRanalyzer** (Hackenberg _et al._, 2009, 2011) a tool for expression profiling of small RNAs and prediction of novel microRNAs.
 
-sRNAtoolbox is implemented into a [webserver](https://arn.ugr.es/srnatoolbox), **a Docker**, and some of the tools are also available as [standalone executable files in this repository.](https://bioinfo2.ugr.es/srnatoolbox/standalone/) 
+sRNAtoolbox is implemented into a [webserver](https://arn.ugr.es/srnatoolbox), **a Docker**, and some of the tools are also available as [standalone executable files in this repository.](https://github.com/bioinfoUGR/sRNAtoolbox/tree/master/exec) 
 
 ## Getting started
 
