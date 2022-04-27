@@ -4,10 +4,11 @@
 
 The key tool of sRNAtoolbox is **sRNAbench** (Barturen _et al._, 2014) which is the successor program of **miRanalyzer** (Hackenberg _et al._, 2009, 2011) a tool for expression profiling of small RNAs and prediction of novel microRNAs.
 
-sRNAtoolbox is implemented into a [webserver](https://arn.ugr.es/srnatoolbox), **a Docker**, and some of the tools are also available as [standalone executable files in this repository.](https://github.com/bioinfoUGR/sRNAtoolbox/tree/master/exec) 
+sRNAtoolbox is implemented into a [webserver](https://arn.ugr.es/srnatoolbox), **a Docker**, and some of the tools are also available as [standalone executable files in this repository.](https://github.com/bioinfoUGR/sRNAtoolbox/tree/master/exec) These tools are provided under an [MIT license](./LICENSE).
 
-## Citing sRNAtoolbox
-
+## Citing sRNAtoolbox or sRNAbench
+If you use sRNAbench or sRNAtoolbox please make sure to cite our latest publication.
+>Aparicio-Puerta E., Lebrón R., Rueda A., Gómez-Martín C., Giannoukakos S., Jaspez D., Medina J.M., Zubkovic A., Jurak I., Fromm B. et al. sRNAbench and sRNAtoolbox 2019: intuitive fast small RNA profiling and differential expression. Nucleic Acids Res. 2019; 47:W530–W535.
 ## Getting started
 
 There are 3 ways to use sRNAbench or sRNAtoolbox: Webserver, Docker container or standalone versions. We discourage the usage of standalone as several dependencies exist. 
