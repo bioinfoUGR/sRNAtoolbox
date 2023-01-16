@@ -1,6 +1,6 @@
 ## What is sRNAtoolbox?
 
-[**sRNAtoolbox**](https://academic.oup.com/nar/article/47/W1/W530/5494756#:~:text=https%3A//doi.org/10.1093/nar/gkz415) is a collection of several tools for small RNA research including expression profiling from NGS data, differential expression, analysis of unmapped reads with blast and consensus target prediction and analysis.
+[**sRNAtoolbox**](https://academic.oup.com/nar/article/50/W1/W710/6584784?login=false) is a collection of several tools for small RNA research including expression profiling from NGS data, differential expression, analysis of unmapped reads with blast and consensus target prediction and analysis.
 
 The key tool of sRNAtoolbox is **sRNAbench** (Barturen _et al._, 2014) which is the successor program of **miRanalyzer** (Hackenberg _et al._, 2009, 2011) a tool for expression profiling of small RNAs and prediction of novel microRNAs.
 
@@ -8,7 +8,8 @@ sRNAtoolbox is implemented into a [webserver](https://arn.ugr.es/srnatoolbox), *
 
 ## Citing sRNAtoolbox or sRNAbench
 If you use sRNAbench or sRNAtoolbox please make sure to cite our latest publication.
->Aparicio-Puerta E., Lebrón R., Rueda A., Gómez-Martín C., Giannoukakos S., Jaspez D., Medina J.M., Zubkovic A., Jurak I., Fromm B. et al. sRNAbench and sRNAtoolbox 2019: intuitive fast small RNA profiling and differential expression. Nucleic Acids Res. 2019; 47:W530–W535.
+>Aparicio-Puerta E., Gómez-Martín C., Giannoukakos S., Medina J.M., Scheepbouwer C., García-Moreno A., Carmona-Saez P., Fromm B., Pegtel D.M., Keller A., Marchal J.A.,  Hackenberg M., sRNAbench and sRNAtoolbox 2022 update: accurate miRNA and sncRNA profiling for model and non-model organisms, Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022, Pages W710–W717, [https://doi.org/10.1093/nar/gkac363](https://doi.org/10.1093/nar/gkac363).
+
 ## Getting started
 
 There are 3 ways to use sRNAbench or sRNAtoolbox: Webserver, Docker container or standalone versions. We discourage the usage of standalone as several dependencies exist. 
